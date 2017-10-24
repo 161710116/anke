@@ -1,0 +1,10 @@
+<?php
+class sekolah {
+	var $nama_sekolah;
+	var $tingkat_sekolah;
+	var $alamat;
+
+	function nama_sekolah();
+	echo "Nama Sekolah adalah $this->nama_sekolah";
+}
+?>
